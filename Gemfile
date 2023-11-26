@@ -15,8 +15,8 @@ gem "puma", ">= 5.0"
 gem "pg", "~> 1.1"
 
 # Caching
-# gem "redis", ">= 4.0.1"
-# gem "kredis"
+gem "redis", ">= 4.0.1"
+gem "kredis"
 gem "bootsnap", require: false
 
 # API
