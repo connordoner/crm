@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%= I18n.locale %>">
   <head>
-    <title>Crm</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%# Character set %>
+    <meta charset="UTF-8">
+
+    <%# Page title %>
+    <title><%= yield :title %> – <%= t("application.name") %></title>
+
+    <%# Security %>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <%# Layout %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <%# Assets %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-    <%= yield %>
+    <%# Main content %>
+    <%= yield :content %>
   </body>
 </html>

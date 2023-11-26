@@ -2,5 +2,6 @@ en-GB:
   views:
     home:
       index:
+        title: Home
         heading: Home#index
         lead: Find me in app/views/home/index.html.erb

@@ -1,2 +1,11 @@
-<h1><%= t("views.home.index.heading") %></h1>
-<p><%= t("views.home.index.lead") %></p>
+<%# Page title %>
+<%= content_for :title, t("views.home.index.title") %>
+
+<%# Main content %>
+<% content_for :content do %>
+  <%# Page heading %>
+  <h1><%= t("views.home.index.heading") %></h1>
+
+  <%# Lead text %>
+  <p><%= t("views.home.index.lead") %></p>
+<% end %>
