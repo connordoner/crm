@@ -19,6 +19,10 @@ gem "redis", ">= 4.0.1"
 gem "kredis"
 gem "bootsnap", require: false
 
+# Internationalization
+# This MUST be specified as the same major version as the version of the Ruby on Rails framework.
+gem "rails-i18n", "~> 7.0.0"
+
 # API
 gem "jbuilder"
 
