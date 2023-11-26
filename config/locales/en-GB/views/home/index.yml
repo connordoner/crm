@@ -1,0 +1,6 @@
+en-GB:
+  views:
+    home:
+      index:
+        heading: Home#index
+        lead: Find me in app/views/home/index.html.erb
