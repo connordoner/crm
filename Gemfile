@@ -32,6 +32,9 @@ gem "importmap-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
 
+# UI
+gem "view_component"
+
 # Utilities
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
