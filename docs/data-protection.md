@@ -13,3 +13,7 @@ I would argue that the use of a personal CRM is likely to generally constitute a
 Page 295 of the ICO's [Guide to the General Data Protection Regulation (GDPR)](https://ico.org.uk/media/for-organisations/guide-to-the-general-data-protection-regulation-gdpr-1-0.pdf) seems to confirm this train of thought:
 
 > Personal data processed in the course of a purely personal or household activity, with no connection to a professional or commercial activity, is outside the GDPR’s scope. This means that if you only use personal data for such things as writing to friends and family or taking pictures for your own enjoyment, you are not subject to the GDPR.
+
+I also asked someone I know who's a solicitor and, whilst they weren't able to give me legal advice, they said:
+
+> If I were building a CRM tool for my own, solely personal, use and purposes, I would be reasonably comfortable that the UK GDPR did not apply to what I was doing.
